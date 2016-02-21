@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes>
+	<note id="1">
+		<to>Tove</to>
+		<from>Jani</from>
+		<heading>Reminder</heading>
+		<body>Don't forget me this weekend!</body>
+	</note>
+	<note id="2">
+		<to>Jay</to>
+		<from>Ram</from>
+		<heading>Warning</heading>
+		<body>Don't forget me this weekend!</body>
+	</note>
+	<note id="3">
+		<to>Rich</to>
+		<from>Archy</from>
+		<heading>Appreciations</heading>
+		<body>Rich is best boy!</body>
+	</note>
+</notes>
