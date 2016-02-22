@@ -16,5 +16,8 @@
 		<property name="username" value="root" />
 		<property name="password" value="Ibmindia786" />
 	</bean>
-	
+	<bean id="simpleJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
+		<constructor-arg ref="dataSource"></constructor-arg>
+	</bean>
+
 </beans>
