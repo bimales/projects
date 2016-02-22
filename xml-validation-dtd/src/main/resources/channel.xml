@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE channel SYSTEM "src/main/resources/channel.dtd">
+<channel>
+	<name>ORG.BM Academy</name>
+	<topic>
+		<name>Design Pattern</name>
+		<tutorial>Factory pattern</tutorial>
+		<tutorial>Abstract Factory pattern</tutorial>
+		<tutorial>Observer pattern</tutorial>
+	</topic>
+	<topic>
+		<name>OOPS Concepts</name>
+		<tutorial>Abstraction</tutorial>
+		<tutorial>Polymorphism</tutorial>
+		<tutorial>Inheritance</tutorial>
+	</topic>
+</channel>
