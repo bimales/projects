@@ -20,7 +20,6 @@ public class DateServer {
 					socket.close();
 				}
 			}
-
 		} finally {
 			listner.close();
 		}
