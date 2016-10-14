@@ -2,6 +2,7 @@ package org.bm.soundsystem;
 
 import static org.junit.Assert.assertNotNull;
 
+import org.bm.soundsystem.implementations.CDPlayer;
 import org.bm.soundsystem.interfaces.CompactDisc;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,8 +17,16 @@ public class CDPlayerTest {
 	@Autowired
 	private CompactDisc cd;
 
+	@Autowired
+	private CDPlayer cdPlayer;
+
 	@Test
 	public void compactDiscShouldNotBeNull() {
 		assertNotNull(cd);
+	}
+
+	@Test
+	public void cdPlayerShouldNotBeNull() {
+		assertNotNull(cdPlayer);
 	}
 }
