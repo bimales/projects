@@ -29,7 +29,7 @@ public class BinarySearch {
 			return mid;
 		}
 		// base condition
-		if (high <=low) {
+		if (high < low) {
 			return -1;
 		}
 		if (target < array[mid]) {
